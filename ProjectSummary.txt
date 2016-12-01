@@ -1,0 +1,37 @@
+Luke Walsh
+30 November 2016
+CS 241
+
+    PROJECT 4
+
+REQUIREMENTS
+    This project asked us to compute the minimum cost spanning tree for a
+    weighted graph and to compute the shortest path between two specified
+    vertices. The input was an argument for a file containing information on
+    how to create the graph, and inputting what vertices to find the shortest
+    path to in the Driver class. The input was processed in the Driver class
+    and was used to create the graph that my project was run on. The output
+    was the edges marked, the minimum spanning tree cost, the shortest tree
+    path between two vertices, the cost for the shortest two tree paths, and
+    the distance between the two vertices.
+
+METHOD
+    The algorithm used was a greedy algorithm that found a spanning tree and
+    was modified in the newCost function to suit our needs for this
+    assignment. The data structures used were a Graph and a GreedyGraph to
+    hold the vertices and edges.
+
+IMPLEMENTATION
+    The packages used were a graph packaged provided to us that created a
+    GreedyGraph. The only code I created was in the mst and spt classes to
+    correct the greedy algorithm to run correctly.
+
+TESTING
+    To test that our implementation was correct. I tested the program with
+    graphs ten through thirteen.
+
+FINDINGS
+    This project was extremely informative for how graphs work and the
+    similarities they share with trees. The ability to move across the graph
+    was much easier due to how the code given ran so smoothly and provided so
+    many methods.
